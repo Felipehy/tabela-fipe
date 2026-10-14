@@ -43,7 +43,7 @@ public class Menu {
         } else if (opcao.contains("mo")) {
             endereco = URL_BASE + "motos/marcas";
         } else {
-            endereco = URL_BASE + "caminhao/marcas";
+            endereco = URL_BASE + "caminhoes/marcas";
         }
 
         var json = consumoAPI.obterDados(endereco);
